@@ -825,3 +825,47 @@ const struct Tileset gTileset_UnionRoom =
     .metatileAttributes = gMetatileAttributes_UnionRoom,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_General_FRLG =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_General_FRLG,
+    .palettes = gTilesetPalettes_General_FRLG,
+    .metatiles = gMetatiles_General_FRLG,
+    .metatileAttributes = gMetatileAttributes_General_FRLG,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Pallet_Town =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Pallet_Town,
+    .palettes = gTilesetPalettes_Pallet_Town,
+    .metatiles = gMetatiles_Pallet_Town,
+    .metatileAttributes = gMetatileAttributes_Pallet_Town,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_Building_FRLG =
+{
+    .isCompressed = TRUE,
+    .isSecondary = FALSE,
+    .tiles = gTilesetTiles_Building_FRLG,
+    .palettes = gTilesetPalettes_Building_FRLG,
+    .metatiles = gMetatiles_Building_FRLG,
+    .metatileAttributes = gMetatileAttributes_Building_FRLG,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_GenericBuilding1 =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_GenericBuilding1,
+    .palettes = gTilesetPalettes_GenericBuilding1,
+    .metatiles = gMetatiles_GenericBuilding1,
+    .metatileAttributes = gMetatileAttributes_GenericBuilding1,
+    .callback = NULL,
+};

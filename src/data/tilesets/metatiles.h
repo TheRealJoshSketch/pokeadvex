@@ -207,3 +207,15 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
+
+const u16 gMetatiles_General_FRLG[] = INCBIN_U16("data/tilesets/primary/general_frlg/metatiles.bin");
+const u16 gMetatileAttributes_General_FRLG[] = INCBIN_U16("data/tilesets/primary/general_frlg/metatile_attributes.bin");
+
+const u16 gMetatiles_Pallet_Town[] = INCBIN_U16("data/tilesets/secondary/pallet_town/metatiles.bin");
+const u16 gMetatileAttributes_Pallet_Town[] = INCBIN_U16("data/tilesets/secondary/pallet_town/metatile_attributes.bin");
+
+const u16 gMetatiles_Building_FRLG[] = INCBIN_U16("data/tilesets/primary/building_frlg/metatiles.bin");
+const u16 gMetatileAttributes_Building_FRLG[] = INCBIN_U16("data/tilesets/primary/building_frlg/metatile_attributes.bin");
+
+const u16 gMetatiles_GenericBuilding1[] = INCBIN_U16("data/tilesets/secondary/generic_building_1/metatiles.bin");
+const u16 gMetatileAttributes_GenericBuilding1[] = INCBIN_U16("data/tilesets/secondary/generic_building_1/metatile_attributes.bin");
