@@ -1,0 +1,255 @@
+raw `
+PalletTown_MapScripts::
+	.byte 0
+
+
+`
+
+const FLAG_HIDE_OAK_IN_HIS_LAB = VAR_TEMP_2
+const FLAG_DONT_TRANSITION_MUSIC = VAR_TEMP_3
+
+script PalletTown_EventScript_OakTriggerLeft{
+	lockall
+	setvar(VAR_TEMP_1, 0)
+	goto(PalletTown_EventScript_OakTrigger)
+	end
+}
+
+script PalletTown_EventScript_OakTriggerRight{
+	lockall
+	setvar(VAR_TEMP_1, 1)
+	goto(PalletTown_EventScript_OakTrigger)
+	end
+}
+
+script PalletTown_EventScript_OakTrigger{
+	//famechecker(FAMECHECKER_OAK, FCPICKSTATE_COLORED, UpdatePickStateFromSpecialVar8005)
+	textcolor(0)
+	delay(30)
+	playbgm(MUS_RG_OAK, 0)
+	message("OAK: Hey! Wait!\n"
+            "Don't go out!")
+	waitmessage
+	delay(85)
+	closemessage
+	applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterDown)
+	waitmovement(0)
+	playse(SE_PIN)
+	applymovement(OBJ_EVENT_ID_PLAYER, Movement_ExclamationMark)
+	waitmovement(0)
+	delay(30)
+	addobject(LOCALID_PROF_OAK)
+    if(var(VAR_TEMP_1) == 0){
+        applymovement(LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLeft)
+        waitmovement(0)
+    }
+    else{
+        applymovement(LOCALID_PROF_OAK, PalletTown_Movement_OakEnterRight)
+        waitmovement(0)
+    }
+	delay(30)
+	msgbox("OAK: It's unsafe!\n"
+           "Wild POKéMON live in tall grass!\p"
+           "You need your own POKéMON for\n"
+           "your protection.\p"
+           "I know!\n"
+           "Here, come with me!")
+	closemessage
+	delay(30)
+    if(var(VAR_TEMP_1) == 0){
+        applymovement(LOCALID_PROF_OAK, PalletTown_Movement_OakWalkToLabLeft)
+        applymovement(OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerWalkToLabLeft)
+        waitmovement(0)
+    }
+    else{
+        applymovement(LOCALID_PROF_OAK, PalletTown_Movement_OakWalkToLabRight)
+        applymovement(OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerWalkToLabRight)
+        waitmovement(0)
+    }
+	opendoor(16, 13)
+	waitdooranim
+	applymovement(LOCALID_PROF_OAK, PalletTown_Movement_OakEnterLab)
+	applymovement(OBJ_EVENT_ID_PLAYER, PalletTown_Movement_PlayerEnterLab)
+	waitmovement(0)
+	closedoor(16, 13)
+	waitdooranim
+	//setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1)
+	clearflag(FLAG_HIDE_OAK_IN_HIS_LAB)
+	setvar(VAR_MAP_SCENE_PALLET_TOWN_OAK, 1)
+	setflag(FLAG_HIDE_OAK_IN_PALLET_TOWN)
+	setflag(FLAG_DONT_TRANSITION_MUSIC)
+	warp(MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 255, 6, 12)
+	waitstate
+	releaseall
+	end
+}
+	
+script PalletTown_EventScript_SignLady{
+    lock
+    msgbox("I'm raising POKéMON, too.\p"
+           "When they get strong, they can\n"
+           "protect me", MSGBOX_NPC)
+    release
+    end
+}
+
+movement PalletTown_Movement_OakWalkToLabLeft{
+	walk_down
+	//Walk to Lab
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+
+	walk_right
+	//walk_in_place_fastest_up
+	step_end
+}
+
+movement PalletTown_Movement_OakWalkToLabRight{
+	walk_down
+	walk_left
+	//Walk to Lab
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+
+	walk_right
+	//walk_in_place_fastest_up
+	step_end
+}
+
+movement PalletTown_Movement_OakEnterLab{
+	walk_up
+	set_invisible
+	step_end
+}
+
+movement Movement_ExclamationMark{
+	emote_exclamation_mark
+	step_end
+}
+
+movement Movement_WalkInPlaceFastestDown{
+	//walk_in_place_fastest_down
+	step_end
+}
+
+movement PalletTown_Movement_PlayerWalkToLabLeft{
+	walk_down
+	walk_down
+    //Walk to Lab
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
+}
+
+movement PalletTown_Movement_PlayerWalkToLabRight{
+	walk_down
+	walk_down
+	walk_left
+    //Walk to Lab
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	step_end
+}
+
+movement PalletTown_Movement_PlayerEnterLab{
+	walk_right
+	walk_up
+	set_invisible
+	step_end
+}
+
+movement PalletTown_Movement_OakEnterLeft{
+	walk_up
+	walk_up
+	walk_right
+	walk_up
+	walk_up
+	walk_right
+	walk_up
+	walk_up
+	step_end
+}
+
+movement PalletTown_Movement_OakEnterRight{
+	walk_right
+	walk_up
+	walk_up
+	walk_right
+	walk_up
+	walk_up
+	walk_right
+	walk_up
+	walk_up
+	step_end
+}
+
+script PalletTown_EventScript_FatMan{
+    msgbox("Technology is incredible!\p"
+           "You can now store and recall items\n"
+           "and POKéMON as data via PC.", MSGBOX_NPC)
+    end
+}
+
+script PalletTown_EventScript_OaksLabSign{
+	lockall
+	//famechecker(FAMECHECKER_OAK, 0)
+	msgbox("OAK POKéMON RESEARCH LAB")
+	releaseall
+	end
+}

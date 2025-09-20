@@ -219,3 +219,6 @@ const u16 gMetatileAttributes_Building_FRLG[] = INCBIN_U16("data/tilesets/primar
 
 const u16 gMetatiles_GenericBuilding1[] = INCBIN_U16("data/tilesets/secondary/generic_building_1/metatiles.bin");
 const u16 gMetatileAttributes_GenericBuilding1[] = INCBIN_U16("data/tilesets/secondary/generic_building_1/metatile_attributes.bin");
+
+const u16 gMetatiles_Lab_FRLG[] = INCBIN_U16("data/tilesets/secondary/lab_frlg/metatiles.bin");
+const u16 gMetatileAttributes_Lab_FRLG[] = INCBIN_U16("data/tilesets/secondary/lab_frlg/metatile_attributes.bin");

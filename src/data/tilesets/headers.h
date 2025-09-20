@@ -869,3 +869,14 @@ const struct Tileset gTileset_GenericBuilding1 =
     .metatileAttributes = gMetatileAttributes_GenericBuilding1,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_Lab_FRLG =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_Lab_FRLG,
+    .palettes = gTilesetPalettes_Lab_FRLG,
+    .metatiles = gMetatiles_Lab_FRLG,
+    .metatileAttributes = gMetatileAttributes_Lab_FRLG,
+    .callback = NULL,
+};

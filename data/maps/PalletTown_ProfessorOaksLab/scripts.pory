@@ -1,0 +1,213 @@
+const FLAG_VISITED_OAKS_LAB = FLAG_TEMP_1
+const FLAG_HIDE_OAK_IN_HIS_LAB = FLAG_TEMP_2
+const FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL = FLAG_TEMP_3
+
+const VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB = VAR_TEMP_1
+const PLAYER_STARTER_NUM = VAR_TEMP_2
+
+mapscripts PalletTown_ProfessorOaksLab_MapScripts {
+}
+
+mapscripts PalletTown_ProfessorOaksLab_MapScripts2 {
+    MAP_SCRIPT_ON_TRANSITION {
+        setflag(FLAG_VISITED_OAKS_LAB)
+        //goto(PalletTown_ProfessorOaksLab_EventScript_ReadyOakForStarterScene)
+        //compare(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1)
+        //call_if_eq(PalletTown_ProfessorOaksLab_EventScript_ReadyOakForStarterScene)
+        //compare(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 7)
+        //call_if_eq(PalletTown_ProfessorOaksLab_EventScript_ReadyOakForNationalDexScene)
+        //compare(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 8)
+        //call_if_eq(PalletTown_ProfessorOaksLab_EventScript_SetNationalDexSceneFinished)
+        //call_if_set(FLAG_GOT_POKEBALLS_FROM_OAK_AFTER_22_RIVAL, PalletTown_ProfessorOaksLab_EventScript_SetSkipPokeBallCheck)
+    }
+    MAP_SCRIPT_ON_FRAME_TABLE {
+        //compare(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 1)
+        //call_if_eq(PalletTown_ProfessorOaksLab_ChooseStarterScene)
+    }
+}
+
+script PalletTown_ProfessorOaksLab_ChooseStarterScene{
+	lockall
+	textcolor(0)
+	applymovement(LOCALID_PROF_OAK_LAB, PalletTown_ProfessorOaksLab_Movement_OakEnter)
+	waitmovement(0)
+	removeobject(LOCALID_PROF_OAK_LAB)
+	setobjectxyperm(LOCALID_PROF_OAK_LAB, 6, 3)
+	setobjectmovementtype(LOCALID_PROF_OAK_LAB, MOVEMENT_TYPE_FACE_DOWN)
+	clearflag(FLAG_HIDE_OAK_IN_HIS_LAB)
+	applymovement(OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorOaksLab_Movement_PlayerEnter)
+	waitmovement(0)
+	applymovement(LOCALID_RIVAL, Common_Movement_WalkInPlaceFasterUp)
+	waitmovement(0)
+	clearflag(FLAG_DONT_TRANSITION_MUSIC)
+	savebgm(MUS_DUMMY)
+	fadedefaultbgm
+	msgbox("{RIVAL}: Gramps!\n"
+           "I'm fed up with waiting!$")
+	closemessage
+	delay(60)
+	msgbox("OAK: {RIVAL}?\n"
+           "Let me think…\p"
+           "Oh, that's right, I told you to\n"
+           "come! Just wait!\p"
+           "Here, {PLAYER}.\p"
+           "There are three POKéMON here.\p"
+           "Haha!\p"
+           "The POKéMON are held inside\n"
+           "these POKé BALLS.\p"
+           "When I was young, I was a serious\n"
+           "POKéMON TRAINER.\p"
+           "But now, in my old age, I have\n"
+           "only these three left.\p"
+           "You can have one.\n"
+           "Go on, choose!")
+	closemessage
+	delay(30)
+	applymovement(LOCALID_RIVAL, PalletTown_ProfessorOaksLab_Movement_RivalReact)
+	waitmovement(0)
+	msgbox("{RIVAL}: Hey! Gramps! No fair!\n"
+           "What about me?")
+	msgbox("OAK: Be patient, {RIVAL}.\n"
+           "You can have one, too!")
+	setvar(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2)
+	releaseall
+	end
+}
+
+movement PalletTown_ProfessorOaksLab_Movement_OakEnter{
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+}
+
+movement PalletTown_ProfessorOaksLab_Movement_PlayerEnter{
+	//walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+}
+
+movement PalletTown_ProfessorOaksLab_Movement_RivalReact{
+	walk_in_place_up
+	walk_in_place_up
+	step_end
+}
+
+script PalletTown_ProfessorOaksLab_EventScript_ReadyOakForStarterScene{
+	setobjectxyperm(LOCALID_PROF_OAK_LAB, 6, 11)
+	setobjectmovementtype(LOCALID_PROF_OAK_LAB, MOVEMENT_TYPE_FACE_UP)
+	savebgm(MUS_RG_OAK)
+	return
+}
+
+script PalletTown_ProfessorOaksLab_EventScript_BulbasaurBall{
+	lock
+	faceplayer
+	setvar(PLAYER_STARTER_NUM, 0)
+    goto(PalletTown_ProfessorOaksLab_EventScript_ConfirmStarterChoice)
+	//setvar(PLAYER_STARTER_SPECIES, SPECIES_BULBASAUR)
+	//setvar(RIVAL_STARTER_SPECIES, SPECIES_CHARMANDER)
+	//setvar(RIVAL_STARTER_ID, LOCALID_CHARMANDER_BALL)
+	//compare(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 3)
+	//goto_if_ge(PalletTown_ProfessorOaksLab_EventScript_LastPokeBall)
+	//compare(VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB, 2)
+	//goto_if_eq(PalletTown_ProfessorOaksLab_EventScript_ConfirmStarterChoice)
+	//msgbox(PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls)
+	release
+	end
+}
+
+script PalletTown_ProfessorOaksLab_EventScript_SquirtleBall{
+	lock
+	faceplayer
+	setvar(PLAYER_STARTER_NUM, 1)
+    goto(PalletTown_ProfessorOaksLab_EventScript_ConfirmStarterChoice)
+	release
+	end
+}
+
+script PalletTown_ProfessorOaksLab_EventScript_CharmanderBall{
+	lock
+	faceplayer
+	setvar(PLAYER_STARTER_NUM, 2)
+    goto(PalletTown_ProfessorOaksLab_EventScript_ConfirmStarterChoice)
+	release
+	end
+}
+
+script PalletTown_ProfessorOaksLab_EventScript_ConfirmStarterChoice{
+	applymovement(LOCALID_PROF_OAK_LAB, Common_Movement_FaceRight)
+	waitmovement(0)
+    switch(var(PLAYER_STARTER_NUM)){
+        case 0:
+            showmonpic(SPECIES_BULBASAUR, 10, 3)
+            textcolor(0)
+            msgbox("I see! BULBASAUR is your choice.\n"
+                   "It's very easy to raise.\p"
+                   "So, {PLAYER}, you want to go with\n"
+                   "the GRASS POKéMON BULBASAUR?", MSGBOX_YESNO)
+            if(var(VAR_RESULT) == YES){
+                goto(PalletTown_ProfessorOaksLab_EventScript_ChoseStarter)
+            }
+            else{
+                goto(PalletTown_ProfessorOaksLab_EventScript_DeclinedStarter)
+            }
+            end
+        break
+        case 1:
+            showmonpic(SPECIES_SQUIRTLE, 10, 3)
+            textcolor(0)
+            msgbox("Hm! SQUIRTLE is your choice.\n"
+                   "It's one worth raising.\p"
+                   "So, {PLAYER}, you've decided on the\n"
+                   "WATER POKéMON SQUIRTLE?", MSGBOX_YESNO)
+            if(var(VAR_RESULT) == YES){
+                goto(PalletTown_ProfessorOaksLab_EventScript_ChoseStarter)
+            }
+            else{
+                goto(PalletTown_ProfessorOaksLab_EventScript_DeclinedStarter)
+            }
+        break
+        case 2:
+            showmonpic(SPECIES_CHARMANDER, 10, 3)
+            textcolor(0)
+            msgbox("Ah! CHARMANDER is your choice.\n"
+                   "You should raise it patiently.\p"
+                   "So, {PLAYER}, you're claiming the\n"
+                   "FIRE POKéMON CHARMANDER?", MSGBOX_YESNO)
+            if(var(VAR_RESULT) == YES){
+                goto(PalletTown_ProfessorOaksLab_EventScript_ChoseStarter)
+            }
+            else{
+                goto(PalletTown_ProfessorOaksLab_EventScript_DeclinedStarter)
+            }
+        break
+    }
+	end
+}
+
+script PalletTown_ProfessorOaksLab_EventScript_ChoseStarter{
+	hidemonpic
+	end
+}
+
+script PalletTown_ProfessorOaksLab_EventScript_DeclinedStarter{
+	hidemonpic
+	release
+	end
+}
+
+script PalletTown_ProfessorOaksLab_EventScript_LastPokeBall{
+	msgbox("That's PROF. OAK's last POKéMON.")
+	release
+	end
+}

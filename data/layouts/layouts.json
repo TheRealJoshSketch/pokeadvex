@@ -4460,6 +4460,16 @@
       "secondary_tileset": "gTileset_Pallet_Town",
       "border_filepath": "data/layouts/Route21_North/border.bin",
       "blockdata_filepath": "data/layouts/Route21_North/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "name": "PalletTown_ProfessorOaksLab_Layout",
+      "width": 13,
+      "height": 14,
+      "primary_tileset": "gTileset_Building_FRLG",
+      "secondary_tileset": "gTileset_Lab_FRLG",
+      "border_filepath": "data/layouts/PalletTown_ProfessorOaksLab/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_ProfessorOaksLab/map.bin"
     }
   ]
 }
