@@ -43,7 +43,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_SetObjGfx::
 # 22 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	goto_if_eq VAR_RESULT, FEMALE, BattleFrontier_BattleTowerMultiBattleRoom_EventScript_SetPlayerGfxFemale
 # 23 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	setvar VAR_OBJ_GFX_ID_F, OBJ_EVENT_GFX_BRENDAN_NORMAL
+	setvar VAR_OBJ_GFX_ID_F, OBJ_EVENT_GFX_YELLOW_NORMAL
 # 24 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	return
 # 25 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"

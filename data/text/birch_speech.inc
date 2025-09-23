@@ -32,8 +32,8 @@ gText_Birch_AndYouAre::
 	.string "And you are?$"
 
 gText_Birch_BoyOrGirl::
-	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "Should I bring my hat? I gotta keep\n"
+	.string "it with me so I don’t lose it.$"
 
 gText_Birch_WhatsYourName::
 	.string "All right.\n"

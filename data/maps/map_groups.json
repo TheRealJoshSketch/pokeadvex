@@ -98,7 +98,11 @@
     "PalletTown_PlayerHouse_2F",
     "Route1",
     "Route21_North",
-    "PalletTown_ProfessorOaksLab"
+    "PalletTown_ProfessorOaksLab",
+    "PalletTown_RivalsHouse",
+    "ViridianCity",
+    "Route22",
+    "Route2"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

@@ -1069,3 +1069,11 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Route21_North/scripts.inc"
 
 	.include "data/maps/PalletTown_ProfessorOaksLab/scripts.inc"
+
+	.include "data/maps/PalletTown_RivalsHouse/scripts.inc"
+
+	.include "data/maps/ViridianCity/scripts.inc"
+
+	.include "data/maps/Route22/scripts.inc"
+
+	.include "data/maps/Route2/scripts.inc"

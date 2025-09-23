@@ -4470,6 +4470,46 @@
       "secondary_tileset": "gTileset_Lab_FRLG",
       "border_filepath": "data/layouts/PalletTown_ProfessorOaksLab/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_ProfessorOaksLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_RIVALS_HOUSE",
+      "name": "PalletTown_RivalsHouse_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_FRLG",
+      "secondary_tileset": "gTileset_GenericBuilding1",
+      "border_filepath": "data/layouts/PalletTown_RivalsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_RivalsHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY",
+      "name": "ViridianCity_Layout",
+      "width": 48,
+      "height": 40,
+      "primary_tileset": "gTileset_General_FRLG",
+      "secondary_tileset": "gTileset_ViridianCity",
+      "border_filepath": "data/layouts/ViridianCity/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE22",
+      "name": "Route22_Layout",
+      "width": 48,
+      "height": 24,
+      "primary_tileset": "gTileset_General_FRLG",
+      "secondary_tileset": "gTileset_ViridianCity",
+      "border_filepath": "data/layouts/Route22/border.bin",
+      "blockdata_filepath": "data/layouts/Route22/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE2",
+      "name": "Route2_Layout",
+      "width": 24,
+      "height": 80,
+      "primary_tileset": "gTileset_General_FRLG",
+      "secondary_tileset": "gTileset_ViridianCity",
+      "border_filepath": "data/layouts/Route2/border.bin",
+      "blockdata_filepath": "data/layouts/Route2/map.bin"
     }
   ]
 }

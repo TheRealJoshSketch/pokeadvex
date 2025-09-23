@@ -245,6 +245,14 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan1;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
 
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowFishing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowWatering;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowUnderwater;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -486,6 +494,15 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LINK_RS_MAY] =              &gObjectEventGraphicsInfo_RubySapphireMay,
     [OBJ_EVENT_GFX_LUGIA] =                    &gObjectEventGraphicsInfo_Lugia,
     [OBJ_EVENT_GFX_HOOH] =                     &gObjectEventGraphicsInfo_HoOh,
+    
+    [OBJ_EVENT_GFX_YELLOW_NORMAL] =           &gObjectEventGraphicsInfo_YellowNormal,
+    [OBJ_EVENT_GFX_YELLOW_MACH_BIKE] =        &gObjectEventGraphicsInfo_YellowMachBike,
+    [OBJ_EVENT_GFX_YELLOW_ACRO_BIKE] =        &gObjectEventGraphicsInfo_YellowAcroBike,
+    [OBJ_EVENT_GFX_YELLOW_SURFING] =          &gObjectEventGraphicsInfo_YellowSurfing,
+    [OBJ_EVENT_GFX_YELLOW_FIELD_MOVE] =       &gObjectEventGraphicsInfo_YellowFieldMove,
+    [OBJ_EVENT_GFX_YELLOW_FISHING] =          &gObjectEventGraphicsInfo_YellowFishing,
+    [OBJ_EVENT_GFX_YELLOW_WATERING] =         &gObjectEventGraphicsInfo_YellowWatering,
+    [OBJ_EVENT_GFX_YELLOW_UNDERWATER] =       &gObjectEventGraphicsInfo_YellowUnderwater,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
