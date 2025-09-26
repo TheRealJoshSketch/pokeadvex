@@ -397,6 +397,20 @@ PalletTown_EventScript_OaksLabSign::
 	end
 
 
+PalletTown_EventScript_DebugCall::
+# 258 "data/maps/PalletTown/scripts.pory"
+	lockall
+# 259 "data/maps/PalletTown/scripts.pory"
+	msgbox PalletTown_EventScript_DebugCall_Text_0
+# 260 "data/maps/PalletTown/scripts.pory"
+	givemon SPECIES_DRATINI, 50, ITEM_DRAGON_FANG
+# 261 "data/maps/PalletTown/scripts.pory"
+	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
+# 262 "data/maps/PalletTown/scripts.pory"
+	releaseall
+	end
+
+
 PalletTown_EventScript_OakTrigger_Text_0:
 # 30 "data/maps/PalletTown/scripts.pory"
 	.string "OAK: Hey! Wait!\n"
@@ -426,3 +440,7 @@ PalletTown_EventScript_FatMan_Text_0:
 PalletTown_EventScript_OaksLabSign_Text_0:
 # 252 "data/maps/PalletTown/scripts.pory"
 	.string "OAK POKéMON RESEARCH LAB$"
+
+PalletTown_EventScript_DebugCall_Text_0:
+# 259 "data/maps/PalletTown/scripts.pory"
+	.string "We are testing this game, have this Pokemon$"

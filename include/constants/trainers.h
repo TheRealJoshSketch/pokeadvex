@@ -120,6 +120,8 @@
 #define TRAINER_BACK_PIC_RUBY_SAPPHIRE_MAY      5
 #define TRAINER_BACK_PIC_WALLY                  6
 #define TRAINER_BACK_PIC_STEVEN                 7
+#define TRAINER_BACK_PIC_YELLOW                 8
+#define TRAINER_BACK_PIC_YELLOW_NO_HAT          9
 
 #define FACILITY_CLASS_HIKER                 0x0
 #define FACILITY_CLASS_AQUA_GRUNT_M          0x1

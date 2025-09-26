@@ -2291,7 +2291,7 @@ static void PlayerHandleDrawTrainerPic(void)
     }
     else
     {
-        trainerPicId = gSaveBlock2Ptr->playerGender;
+        trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_YELLOW;
     }
 
     if (gBattleTypeFlags & BATTLE_TYPE_MULTI)
@@ -2373,7 +2373,7 @@ static void PlayerHandleTrainerSlide(void)
     }
     else
     {
-        trainerPicId = gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_BRENDAN;
+        trainerPicId = TRAINER_BACK_PIC_YELLOW;
     }
 
     DecompressTrainerBackPic(trainerPicId, gActiveBattler);
@@ -2960,7 +2960,7 @@ static void PlayerHandleIntroTrainerBallThrow(void)
     StartSpriteAnim(&gSprites[gBattlerSpriteIds[gActiveBattler]], 1);
 
     paletteNum = AllocSpritePalette(0xD6F8);
-    LoadCompressedPalette(gTrainerBackPicPaletteTable[gSaveBlock2Ptr->playerGender].data, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
+    LoadCompressedPalette(gTrainerBackPicPaletteTable[gSaveBlock2Ptr->playerGender + TRAINER_BACK_PIC_YELLOW].data, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
     gSprites[gBattlerSpriteIds[gActiveBattler]].oam.paletteNum = paletteNum;
 
     taskId = CreateTask(Task_StartSendOutAnim, 5);
