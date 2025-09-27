@@ -401,14 +401,26 @@ PalletTown_EventScript_DebugCall::
 # 258 "data/maps/PalletTown/scripts.pory"
 	lockall
 # 259 "data/maps/PalletTown/scripts.pory"
-	msgbox PalletTown_EventScript_DebugCall_Text_0
+	faceplayer
 # 260 "data/maps/PalletTown/scripts.pory"
-	givemon SPECIES_DRATINI, 50, ITEM_DRAGON_FANG
-# 261 "data/maps/PalletTown/scripts.pory"
-	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
-# 262 "data/maps/PalletTown/scripts.pory"
+	goto_if_set FLAG_HIDE_OAK_IN_PALLET_TOWN, PalletTown_EventScript_DebugCall_2
+# 267 "data/maps/PalletTown/scripts.pory"
+	msgbox PalletTown_EventScript_DebugCall_Text_1
+PalletTown_EventScript_DebugCall_1:
+# 269 "data/maps/PalletTown/scripts.pory"
 	releaseall
 	end
+
+PalletTown_EventScript_DebugCall_2:
+# 261 "data/maps/PalletTown/scripts.pory"
+	msgbox PalletTown_EventScript_DebugCall_Text_0
+# 262 "data/maps/PalletTown/scripts.pory"
+	givemon SPECIES_DRATINI, 50, ITEM_DRAGON_FANG
+# 263 "data/maps/PalletTown/scripts.pory"
+	setflag FLAG_HIDE_OAK_IN_PALLET_TOWN
+# 264 "data/maps/PalletTown/scripts.pory"
+	setvar VAR_MAP_SCENE_PALLET_TOWN_OAK, 1
+	goto PalletTown_EventScript_DebugCall_1
 
 
 PalletTown_EventScript_OakTrigger_Text_0:
@@ -442,6 +454,10 @@ PalletTown_EventScript_OaksLabSign_Text_0:
 	.string "OAK POKéMON RESEARCH LAB$"
 
 PalletTown_EventScript_DebugCall_Text_0:
-# 259 "data/maps/PalletTown/scripts.pory"
+# 261 "data/maps/PalletTown/scripts.pory"
 	.string "We are testing this game, have this\n"
 	.string "Pokemon$"
+
+PalletTown_EventScript_DebugCall_Text_1:
+# 267 "data/maps/PalletTown/scripts.pory"
+	.string "Now go and find some bugs$"
