@@ -25,6 +25,20 @@ const u32 gObjectEventPic_YellowUnderwater[] = INCBIN_U32("graphics/object_event
 const u16 gObjectEventPal_Yellow[]           = INCBIN_U16("graphics/object_events/palettes/yellow.gbapal");
 const u16 gObjectEventPal_YellowReflection[] = INCBIN_U16("graphics/object_events/palettes/brendan_reflection.gbapal");
 
+//Yellow No Hat
+const u32 gObjectEventPic_Yellow_No_HatNormal[]     = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/walking.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatRunning[]    = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/running.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatFieldMove[]  = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/field_move.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatSurfing[]    = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/surfing.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatMachBike[]   = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/mach_bike.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatAcroBike[]   = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/acro_bike.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatFishing[]    = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/fishing.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatWatering[]   = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/watering.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatDecorating[] = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/decorating.4bpp");
+const u32 gObjectEventPic_Yellow_No_HatUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/yellow_no_hat/underwater.4bpp");
+const u16 gObjectEventPal_Yellow_No_Hat[]           = INCBIN_U16("graphics/object_events/palettes/yellow_no_hat.gbapal");
+const u16 gObjectEventPal_Yellow_No_HatReflection[] = INCBIN_U16("graphics/object_events/palettes/brendan_reflection.gbapal");
+
 const u32 gObjectEventPic_RubySapphireBrendanNormal[]  = INCBIN_U32("graphics/object_events/pics/people/ruby_sapphire_brendan/walking.4bpp");
 const u32 gObjectEventPic_RubySapphireBrendanRunning[] = INCBIN_U32("graphics/object_events/pics/people/ruby_sapphire_brendan/running.4bpp");
 const u16 gObjectEventPal_RubySapphireBrendan[]        = INCBIN_U16("graphics/object_events/palettes/ruby_sapphire_brendan.gbapal");

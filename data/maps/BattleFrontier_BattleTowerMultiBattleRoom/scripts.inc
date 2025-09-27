@@ -51,7 +51,7 @@ BattleFrontier_BattleTowerMultiBattleRoom_EventScript_SetObjGfx::
 # 26 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 BattleFrontier_BattleTowerMultiBattleRoom_EventScript_SetPlayerGfxFemale::
 # 27 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
-	setvar VAR_OBJ_GFX_ID_F, OBJ_EVENT_GFX_MAY_NORMAL
+	setvar VAR_OBJ_GFX_ID_F, OBJ_EVENT_GFX_YELLOW_NO_HAT_NORMAL
 # 28 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"
 	return
 # 29 "data/maps/BattleFrontier_BattleTowerMultiBattleRoom/scripts.pory"

@@ -1399,9 +1399,9 @@ static void NamingScreen_CreatePlayerIcon(void)
     u8 spriteId;
 
     if(sNamingScreen->monSpecies)
-        rivalGfxId = OBJ_EVENT_GFX_YELLOW_NORMAL;
-    else
         rivalGfxId = OBJ_EVENT_GFX_YELLOW_NO_HAT_NORMAL;
+    else
+        rivalGfxId = OBJ_EVENT_GFX_YELLOW_NORMAL;
     
     //rivalGfxId = GetRivalAvatarGraphicsIdByStateIdAndGender(PLAYER_AVATAR_STATE_NORMAL, sNamingScreen->monSpecies);
 

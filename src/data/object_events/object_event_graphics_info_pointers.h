@@ -254,6 +254,15 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowFishi
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowWatering;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_YellowUnderwater;
 
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yellow_No_HatNormal;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yellow_No_HatMachBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yellow_No_HatAcroBike;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yellow_No_HatSurfing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yellow_No_HatFieldMove;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yellow_No_HatFishing;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yellow_No_HatWatering;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Yellow_No_HatUnderwater;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -495,14 +504,23 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LUGIA] =                    &gObjectEventGraphicsInfo_Lugia,
     [OBJ_EVENT_GFX_HOOH] =                     &gObjectEventGraphicsInfo_HoOh,
     
-    [OBJ_EVENT_GFX_YELLOW_NORMAL] =           &gObjectEventGraphicsInfo_YellowNormal,
-    [OBJ_EVENT_GFX_YELLOW_MACH_BIKE] =        &gObjectEventGraphicsInfo_YellowMachBike,
-    [OBJ_EVENT_GFX_YELLOW_ACRO_BIKE] =        &gObjectEventGraphicsInfo_YellowAcroBike,
-    [OBJ_EVENT_GFX_YELLOW_SURFING] =          &gObjectEventGraphicsInfo_YellowSurfing,
-    [OBJ_EVENT_GFX_YELLOW_FIELD_MOVE] =       &gObjectEventGraphicsInfo_YellowFieldMove,
-    [OBJ_EVENT_GFX_YELLOW_FISHING] =          &gObjectEventGraphicsInfo_YellowFishing,
-    [OBJ_EVENT_GFX_YELLOW_WATERING] =         &gObjectEventGraphicsInfo_YellowWatering,
-    [OBJ_EVENT_GFX_YELLOW_UNDERWATER] =       &gObjectEventGraphicsInfo_YellowUnderwater,
+    [OBJ_EVENT_GFX_YELLOW_NORMAL] =             &gObjectEventGraphicsInfo_YellowNormal,
+    [OBJ_EVENT_GFX_YELLOW_MACH_BIKE] =          &gObjectEventGraphicsInfo_YellowMachBike,
+    [OBJ_EVENT_GFX_YELLOW_ACRO_BIKE] =          &gObjectEventGraphicsInfo_YellowAcroBike,
+    [OBJ_EVENT_GFX_YELLOW_SURFING] =            &gObjectEventGraphicsInfo_YellowSurfing,
+    [OBJ_EVENT_GFX_YELLOW_FIELD_MOVE] =         &gObjectEventGraphicsInfo_YellowFieldMove,
+    [OBJ_EVENT_GFX_YELLOW_FISHING] =            &gObjectEventGraphicsInfo_YellowFishing,
+    [OBJ_EVENT_GFX_YELLOW_WATERING] =           &gObjectEventGraphicsInfo_YellowWatering,
+    [OBJ_EVENT_GFX_YELLOW_UNDERWATER] =         &gObjectEventGraphicsInfo_YellowUnderwater,
+    
+    [OBJ_EVENT_GFX_YELLOW_NO_HAT_NORMAL] =      &gObjectEventGraphicsInfo_Yellow_No_HatNormal,
+    [OBJ_EVENT_GFX_YELLOW_NO_HAT_MACH_BIKE] =   &gObjectEventGraphicsInfo_Yellow_No_HatMachBike,
+    [OBJ_EVENT_GFX_YELLOW_NO_HAT_ACRO_BIKE] =   &gObjectEventGraphicsInfo_Yellow_No_HatAcroBike,
+    [OBJ_EVENT_GFX_YELLOW_NO_HAT_SURFING] =     &gObjectEventGraphicsInfo_Yellow_No_HatSurfing,
+    [OBJ_EVENT_GFX_YELLOW_NO_HAT_FIELD_MOVE] =  &gObjectEventGraphicsInfo_Yellow_No_HatFieldMove,
+    [OBJ_EVENT_GFX_YELLOW_NO_HAT_FISHING] =     &gObjectEventGraphicsInfo_Yellow_No_HatFishing,
+    [OBJ_EVENT_GFX_YELLOW_NO_HAT_WATERING] =    &gObjectEventGraphicsInfo_Yellow_No_HatWatering,
+    [OBJ_EVENT_GFX_YELLOW_NO_HAT_UNDERWATER] =  &gObjectEventGraphicsInfo_Yellow_No_HatUnderwater,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

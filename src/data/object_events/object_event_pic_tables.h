@@ -127,6 +127,136 @@ static const struct SpriteFrameImage sPicTable_YellowFishing[] = {
     overworld_frame(gObjectEventPic_YellowFishing, 4, 4, 11),
 };
 
+//Yellow no hat
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatNormal[] = {
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 5),
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 6),
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 7),
+    overworld_frame(gObjectEventPic_Yellow_No_HatNormal, 2, 4, 8),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 5),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 6),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 7),
+    overworld_frame(gObjectEventPic_Yellow_No_HatRunning, 2, 4, 8),
+};
+
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatMachBike[] = {
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 5),
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 6),
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 7),
+    overworld_frame(gObjectEventPic_Yellow_No_HatMachBike, 4, 4, 8),
+};
+
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatAcroBike[] = {
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 5),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 6),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 7),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 8),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 9),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 10),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 11),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 12),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 13),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 14),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 15),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 16),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 17),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 18),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 19),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 20),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 21),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 22),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 23),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 24),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 25),
+    overworld_frame(gObjectEventPic_Yellow_No_HatAcroBike, 4, 4, 26),
+};
+
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatSurfing[] = {
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatSurfing, 4, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatUnderwater[] = {
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatUnderwater, 4, 4, 2),
+};
+
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatFieldMove[] = {
+    overworld_frame(gObjectEventPic_Yellow_No_HatFieldMove, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFieldMove, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFieldMove, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFieldMove, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFieldMove, 4, 4, 4),
+};
+
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatWatering[] = {
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 5),
+    overworld_frame(gObjectEventPic_Yellow_No_HatWatering, 4, 4, 5),
+};
+
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatDecorating[] = {
+    obj_frame_tiles(gObjectEventPic_Yellow_No_HatDecorating),
+};
+
+static const struct SpriteFrameImage sPicTable_Yellow_No_HatFishing[] = {
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 5),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 6),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 7),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 8),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 9),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 10),
+    overworld_frame(gObjectEventPic_Yellow_No_HatFishing, 4, 4, 11),
+};
+
 //Brendan
 static const struct SpriteFrameImage sPicTable_BrendanNormal[] = {
     overworld_frame(gObjectEventPic_BrendanNormal, 2, 4, 0),

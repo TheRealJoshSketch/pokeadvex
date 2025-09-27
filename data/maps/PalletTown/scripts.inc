@@ -443,4 +443,5 @@ PalletTown_EventScript_OaksLabSign_Text_0:
 
 PalletTown_EventScript_DebugCall_Text_0:
 # 259 "data/maps/PalletTown/scripts.pory"
-	.string "We are testing this game, have this Pokemon$"
+	.string "We are testing this game, have this\n"
+	.string "Pokemon$"

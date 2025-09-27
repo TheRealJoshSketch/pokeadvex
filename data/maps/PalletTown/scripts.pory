@@ -256,7 +256,7 @@ script PalletTown_EventScript_OaksLabSign{
 
 script PalletTown_EventScript_DebugCall{
 	lockall
-	msgbox("We are testing this game, have this Pokemon")
+	msgbox(format("We are testing this game, have this Pokemon"))
 	givemon(SPECIES_DRATINI, 50, ITEM_DRAGON_FANG)
 	setflag(FLAG_HIDE_OAK_IN_PALLET_TOWN)
 	releaseall

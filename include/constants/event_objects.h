@@ -254,15 +254,15 @@
 #define OBJ_EVENT_GFX_YELLOW_UNDERWATER          246
 #define OBJ_EVENT_GFX_YELLOW_DECORATING          247
 
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_NORMAL       239
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_MACH_BIKE    240
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_ACRO_BIKE    241
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_SURFING      242
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_FIELD_MOVE   243
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_FISHING      244
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_WATERING     245
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_UNDERWATER   246
-#define OBJ_EVENT_GFX_YELLOW_NO_HAT_DECORATING   247
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_NORMAL       248
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_MACH_BIKE    249
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_ACRO_BIKE    250
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_SURFING      251
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_FIELD_MOVE   252
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_FISHING      253
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_WATERING     254
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_UNDERWATER   255
+#define OBJ_EVENT_GFX_YELLOW_NO_HAT_DECORATING   256
 
 // NOTE: By default, the max value for NUM_OBJ_EVENT_GFX is 239.
 //
@@ -273,7 +273,7 @@
 // object graphics that can be removed. If more graphics are needed, anything that
 // stores graphics ids will need to be increased in size. See wiki entry below:
 // https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
-#define NUM_OBJ_EVENT_GFX                        OBJ_EVENT_GFX_YELLOW_DECORATING + 1
+#define NUM_OBJ_EVENT_GFX                        OBJ_EVENT_GFX_YELLOW_NO_HAT_DECORATING + 1
 
 
 // These are dynamic object gfx ids.

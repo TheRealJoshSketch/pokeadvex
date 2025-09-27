@@ -2771,7 +2771,7 @@ void SetBattleTowerLinkPlayerGfx(void)
         if (gLinkPlayers[i].gender == MALE)
             VarSet(VAR_OBJ_GFX_ID_F - i, OBJ_EVENT_GFX_YELLOW_NORMAL);
         else
-            VarSet(VAR_OBJ_GFX_ID_F - i, OBJ_EVENT_GFX_RIVAL_MAY_NORMAL);
+            VarSet(VAR_OBJ_GFX_ID_F - i, OBJ_EVENT_GFX_YELLOW_NO_HAT_NORMAL);
     }
 }
 
