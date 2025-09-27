@@ -454,9 +454,11 @@ static const union AffineAnimCmd *const sSpriteAffineAnimTable_PlayerShrink[] =
 };
 
 static const struct MenuAction sMenuActions_Gender[] = {
-    {gText_BirchBoy, {NULL}},
-    {gText_BirchGirl, {NULL}}
+    {gText_Yes, {NULL}},
+    {gText_No, {NULL}}
 };
+
+static const u8 sText_DefaultNameYellow[] = __("YELLOW");
 
 static const u8 *const sMalePresetNames[] = {
     gText_DefaultNameStu,
@@ -2109,13 +2111,16 @@ static void NewGameBirchSpeech_SetDefaultPlayerName(u8 nameId)
     const u8 *name;
     u8 i;
 
-    if (gSaveBlock2Ptr->playerGender == MALE)
+    /*if (gSaveBlock2Ptr->playerGender == MALE)
         name = sMalePresetNames[nameId];
     else
-        name = sFemalePresetNames[nameId];
-    for (i = 0; i < PLAYER_NAME_LENGTH; i++)
+        name = sFemalePresetNames[nameId];*/
+
+    name = sText_DefaultNameYellow;
+    
+    for (i = 0; i < PLAYER_NAME_LENGTH - 1; i++)
         gSaveBlock2Ptr->playerName[i] = name[i];
-    gSaveBlock2Ptr->playerName[PLAYER_NAME_LENGTH] = EOS;
+    gSaveBlock2Ptr->playerName[i] = EOS;
 }
 
 static void CreateMainMenuErrorWindow(const u8 *str)

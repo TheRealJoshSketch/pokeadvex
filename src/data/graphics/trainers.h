@@ -274,6 +274,9 @@ const u32 gTrainerPalette_Leaf[] = INCBIN_U32("graphics/trainers/front_pics/leaf
 const u32 gTrainerFrontPic_Yellow[] = INCBIN_U32("graphics/trainers/front_pics/yellow.4bpp.lz");
 const u32 gTrainerPalette_Yellow[] = INCBIN_U32("graphics/trainers/front_pics/yellow.gbapal.lz");
 
+const u32 gTrainerFrontPic_Yellow_No_Hat[] = INCBIN_U32("graphics/trainers/front_pics/yellow_no_hat.4bpp.lz");
+const u32 gTrainerPalette_Yellow_No_Hat[]  = INCBIN_U32("graphics/trainers/front_pics/yellow_no_hat.gbapal.lz");
+
 const u32 gTrainerFrontPic_RubySapphireBrendan[] = INCBIN_U32("graphics/trainers/front_pics/brendan_rs.4bpp.lz");
 const u32 gTrainerPalette_RubySapphireBrendan[] = INCBIN_U32("graphics/trainers/palettes/brendan_rs.gbapal.lz");
 

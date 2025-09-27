@@ -94,6 +94,8 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_RS_BRENDAN] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_RS_MAY] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_YELLOW] = {.size = 8, .y_offset = 1},
+    [TRAINER_PIC_YELLOW_NO_HAT] = {.size = 8, .y_offset = 1},
+
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -194,6 +196,7 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(RS_BRENDAN, gTrainerFrontPic_RubySapphireBrendan, TRAINER_PIC_SIZE),
     TRAINER_SPRITE(RS_MAY, gTrainerFrontPic_RubySapphireMay, TRAINER_PIC_SIZE),
     TRAINER_SPRITE(YELLOW, gTrainerFrontPic_Yellow, TRAINER_PIC_SIZE),
+    TRAINER_SPRITE(YELLOW_NO_HAT, gTrainerFrontPic_Yellow_No_Hat, TRAINER_PIC_SIZE),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -294,4 +297,5 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
     TRAINER_PAL(RS_BRENDAN, gTrainerPalette_RubySapphireBrendan),
     TRAINER_PAL(RS_MAY, gTrainerPalette_RubySapphireMay),
     TRAINER_PAL(YELLOW, gTrainerPalette_Yellow),
+    TRAINER_PAL(YELLOW_NO_HAT, gTrainerPalette_Yellow_No_Hat),
 };
