@@ -246,6 +246,8 @@ static void MainMenu_FormatSavegameTime(void);
 static void MainMenu_FormatSavegameBadges(void);
 static void NewGameBirchSpeech_CreateDialogueWindowBorder(u8, u8, u8, u8, u8, u8);
 
+
+static void Task_NewGameBirchSpeech_StartNewGameAndJumpToStartingMap(u8);
 // .rodata
 
 static const u16 sBirchSpeechBgPals[][16] = {
@@ -1062,7 +1064,7 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
             default:
                 gPlttBufferUnfaded[0] = RGB_BLACK;
                 gPlttBufferFaded[0] = RGB_BLACK;
-                gTasks[taskId].func = Task_NewGameBirchSpeech_Init;
+                gTasks[taskId].func = Task_NewGameBirchSpeech_StartNewGameAndJumpToStartingMap;
                 break;
             case ACTION_CONTINUE:
                 gPlttBufferUnfaded[0] = RGB_BLACK;
@@ -1289,7 +1291,7 @@ static void Task_NewGameBirchSpeech_Init(u8 taskId)
     AddBirchSpeechObjects(taskId);
     BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
     gTasks[taskId].tBG1HOFS = 0;
-    gTasks[taskId].func = Task_NewGameBirchSpeech_WaitToShowBirch;
+    gTasks[taskId].func = Task_NewGameBirchSpeech_WaitToShowBirch; //Test
     gTasks[taskId].tPlayerSpriteId = SPRITE_NONE;
     gTasks[taskId].data[3] = 0xFF;
     gTasks[taskId].tTimer = 0xD8;
@@ -1760,6 +1762,26 @@ static void Task_NewGameBirchSpeech_WaitForPlayerShrink(u8 taskId)
 
     if (gSprites[spriteId].affineAnimEnded)
         gTasks[taskId].func = Task_NewGameBirchSpeech_FadePlayerToWhite;
+}
+
+static void Task_NewGameBirchSpeech_StartNewGameAndJumpToStartingMap(u8 taskId)
+{
+    u8 spriteId;
+
+
+    if (!gPaletteFade.active)
+    {
+        gSaveBlock2Ptr->playerGender = 0;
+        NewGameBirchSpeech_SetDefaultPlayerName(0);
+        VarSet(VAR_GAME_INTRO, 0);
+        FlagSet(FLAG_HIDE_OAK_IN_PALLET_TOWN);
+
+        spriteId = gTasks[taskId].tPlayerSpriteId;
+        gSprites[spriteId].callback = SpriteCB_Null;
+        SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP);
+        BeginNormalPaletteFade(PALETTES_OBJECTS, 0, 0, 16, RGB_WHITEALPHA);
+        gTasks[taskId].func = Task_NewGameBirchSpeech_Cleanup;
+    }
 }
 
 static void Task_NewGameBirchSpeech_FadePlayerToWhite(u8 taskId)

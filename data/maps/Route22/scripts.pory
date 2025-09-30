@@ -1,1 +1,171 @@
-mapscripts Route22_MapScripts {}
+mapscripts Route22_MapScripts {
+    //MAP_SCRIPT_ON_LOAD: Route22_Game_Intro
+}
+
+script Route22_Game_Intro{
+    //As a few seconds go by, Blue walks from right to left, and as Yellow pulls a Pokemon from the water, she knocks Blue back as he’s walking
+    lockall
+	addobject(LOCALID_GREEN_INTRO)
+    applymovement(LOCALID_GREEN_INTRO, moves(
+        walk_right * 8
+        step_end
+    ))
+    waitmovement(0)
+
+	applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_FaceLeft)
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, Movement_ExclamationMark)
+	playse(SE_PIN)
+	waitmovement(0)
+	delay(30)
+
+	playbgm(MUS_RG_ENCOUNTER_RIVAL, 0)
+	msgbox("???: Hey! Watch it, kid!\n"
+           "Learn how to fish!")
+	msgbox("You almost knocked my\n"
+           "Pokemon off my belt!")
+    closemessage
+
+    clearflag(FLAG_HIDE_OAK_IN_PALLET_TOWN)
+    showobjectat(LOCALID_DRATINI_INTRO, MAP_ROUTE22)
+    applymovement(LOCALID_DRATINI_INTRO, moves(
+        walk_up
+        face_left
+        step_end
+    ))
+	waitmovement(LOCALID_DRATINI_INTRO, MAP_ROUTE22)
+    playmoncry(SPECIES_DRATINI, 0)
+
+    //The Pokemon pulled from the water is a Dratini. It jumps up in a rage. Yellow turns to Blue for help.
+	applymovement(OBJ_EVENT_ID_PLAYER, Movement_ExclamationMark)
+	playse(SE_PIN)
+	waitmovement(0)
+	applymovement(OBJ_EVENT_ID_PLAYER, Common_Movement_FaceRight)
+	delay(30)
+
+	msgbox("Tck! Learn how to fight on\n"
+           "own, shrimp!")
+    closemessage
+
+    applymovement(LOCALID_GREEN_INTRO, moves(
+        walk_up
+        walk_right * 10
+        step_end
+    ))
+    waitmovement(0)
+	msgbox("Consider this payback for\n"
+           "getting me wet!")
+    closemessage
+
+    hideobjectat(LOCALID_GREEN_INTRO, MAP_ROUTE22)
+    removeobject(LOCALID_GREEN_INTRO, MAP_ROUTE22)
+
+    //fadeoutbgm(1)
+    //fadedefaultbgm()
+	fadenewbgm(MUS_RG_VS_WILD)
+	applymovement(LOCALID_DRATINI_INTRO, Movement_ExclamationMark)
+	waitmovement(0)
+    playmoncry(SPECIES_DRATINI, 0)
+
+    applymovement(OBJ_EVENT_ID_PLAYER, moves(
+        walk_up * 3
+        face_down
+        step_end
+    ))
+	waitmovement(0)
+
+    applymovement(LOCALID_DRATINI_INTRO, moves(
+        walk_left
+        walk_up * 2
+    ))
+	waitmovement(0)
+	applymovement(LOCALID_DRATINI_INTRO, Movement_ExclamationMark)
+	waitmovement(0)
+    playmoncry(SPECIES_DRATINI, 0)
+
+    applymovement(LOCALID_RED_INTRO, moves(
+        walk_left * 7
+        step_end
+    ))
+	waitmovement(0)
+    //Red runs in from the right, and a battle initiates with the Dratini. It plays out like a catching tutorial. Red also owns a Pikachu. After the battle, Red turns to tend to your injuries
+	//fadenewbgm(MUS_RG_SLOW_PALLET)
+	msgbox("???: WOAH! Hold on!\n"
+           "I’ll save you!")
+    closemessage
+	special(SavePlayerParty)
+	special(LoadWallyZigzagoon)
+
+    special(StartWallyTutorialBattle)
+    hideobjectat(LOCALID_DRATINI_INTRO, MAP_ROUTE22)
+    removeobject(LOCALID_DRATINI_INTRO, MAP_ROUTE22)
+	waitstate
+
+    fadenewbgm(MUS_RG_PALLET)
+    special(LoadPlayerParty)
+
+    //
+    goto(Route22_Game_Intro_Part2)
+    release
+    end
+}
+
+script Route22_Game_Intro_Part2{
+    applymovement(LOCALID_RED_INTRO, moves(
+        walk_up
+        face_left
+        step_end
+    ), MAP_ROUTE22)
+	waitmovement(0)
+
+    applymovement(OBJ_EVENT_ID_PLAYER, moves(
+        face_right
+        step_end
+    ))
+	waitmovement(0)
+    
+	msgbox("???: Phew…are you alright?")
+    closemessage
+    delay(10)
+
+    playse(SE_USE_ITEM)
+    waitse
+    delay(30)
+
+    applymovement(LOCALID_RED_INTRO, moves(
+        face_right
+        step_end
+    ))
+	waitmovement(0)
+
+	msgbox("???: BLUE…that jerk.")
+	msgbox(format("He didn’t even notice you had no Pokemon on you…"))
+
+    applymovement(LOCALID_RED_INTRO, moves(
+        face_left
+        step_end
+    ))
+	waitmovement(0)
+    delay(10)
+    
+	msgbox("I’m really sorry about my…\n"
+            "…well, I hardly call him a friend.")
+	msgbox("He has a big ego, but that’ll\n"
+            "come back to hurt him someday…")
+	msgbox("Oh! I’m sorry. I’m so rude.\n"
+            "My name is RED.")
+	msgbox(format("RED: I just started my journey as a Pokemon Trainer. I want to be the very best…like no one ever was."))
+    delay(30)
+	msgbox("And you are…?")
+    setflag(FLAG_SYS_PLAYER_NAMING_SCREEN)
+
+    special(ChangePokemonNickname)
+	waitstate
+
+	msgbox(format("RED: {PLAYER} Ah, that’s a cool name!"))
+	msgbox(format("Speaking of cool!"))
+
+    setvar(VAR_GAME_INTRO, 1)
+    releaseall
+    end
+}

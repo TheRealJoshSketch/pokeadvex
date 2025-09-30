@@ -99,7 +99,7 @@
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS           0x53
 
 #define FLAG_HIDE_OAK_IN_PALLET_TOWN         0x54  // New Flag
-#define FLAG_UNUSED_0x055                    0x55  // Unused Flag
+#define FLAG_SYS_PLAYER_NAMING_SCREEN        0x55  // New Flag
 
 #define FLAG_HIDE_CONTEST_POKE_BALL          0x56  // Always set after new game, object it hides is added directly
 #define FLAG_MET_RIVAL_MOM                   0x57

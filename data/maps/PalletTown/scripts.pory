@@ -86,6 +86,7 @@ script PalletTown_EventScript_OakTrigger{
 	
 script PalletTown_EventScript_SignLady{
     lock
+	faceplayer
     msgbox("I'm raising POKéMON, too.\p"
            "When they get strong, they can\n"
            "protect me", MSGBOX_NPC)
@@ -240,9 +241,12 @@ movement PalletTown_Movement_OakEnterRight{
 }
 
 script PalletTown_EventScript_FatMan{
+    lock
+	faceplayer
     msgbox("Technology is incredible!\p"
            "You can now store and recall items\n"
            "and POKéMON as data via PC.", MSGBOX_NPC)
+	release
     end
 }
 
