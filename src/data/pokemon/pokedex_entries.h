@@ -4643,4 +4643,820 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 290,
         .trainerOffset = 2,
     },
+
+    [NATIONAL_DEX_TOTARTLE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gTotartlePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_GOROCHU] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gGorochuPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_SLATEON] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gSlateonPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_CRAGEON] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gCrageonPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_BREEZEON] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gBreezeonPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_COINPUR] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gCoinpurPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_PERRSERKER] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gPerrserkerPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_GENTLARVA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gGentlarvaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_PUPAL] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gPupalPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_CARAPTHOR] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gCarapthorPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_KOTORA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gKotoraPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_GAOTORA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gGaotoraPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_GOROTORA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gGorotoraPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_NIDOREIGN] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gNidoreignPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_BITTYBAT] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gBittybatPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_PARA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gParaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_VULPIII] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gVulpiiiPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_ANIHILAPE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gAnihilapePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_BELLIGNAN] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gBellignanPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_ORFRY] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gOrfryPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_WEIRDUCK] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gWeirduckPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_CHEEP] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gCheepPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_JABETTA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gJabettaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_LATHERLICK] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gLatherlickPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_PUDI] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gPudiPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_LUXWAN] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gLuxwanPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_SIRFETCHD] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gSirfetchdPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MAGNETITE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMagnetitePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MAGNEZONE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMagnezonePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_GAVILLAIN] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gGavillainPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_KOLTA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gKoltaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_GUARDIA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gGuardiaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_BALUMBA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gBalumbaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_NESTRIO] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gNestrioPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_STAINY] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gStainyPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MONJA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMonjaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_TANGROWTH] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gTangrowthPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_TRICKELA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gTrickelaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_RAMOOSE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gRamoosePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_DISTURBAN] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gDisturbanPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_BLASTYKE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gBlastykePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_SHARPOON] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gSharpoonPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_RHYPERIOR] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gRhyperiorPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_KLEAVOR] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gKleavorPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_TRICULES] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gTriculesPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_TRAMPEL] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gTrampelPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_HAPPINY] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gHappinyPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_CYMBONK] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gCymbonkPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_GORILLAIMO] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gGorillaimoPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_POWRILLA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gPowrillaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_CACTOMUS] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gCactomusPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MIME_JR] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMimeJrPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MR_RIME] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMrRimePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_SUBZAW] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gSubzawPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_BUU] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gBuuPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_ELECTAVIRE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gElectavirePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MAGMORTAR] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMagmortarPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MIMMEO] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMimmeoPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_PORYGON_Z] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gPorygonZPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_PORYGON3] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gPorygon3PokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_DECILLA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gDecillaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_GAWARHEAD] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gGawarheadPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_OMEGADGE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gOmegadgePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_SQUEAMATA] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gSqueamataPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MINISTARE] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMinistarePokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_IGUANARCH] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gIguanarchPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MELTAN] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMeltanPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
+
+    [NATIONAL_DEX_MELMETAL] =
+    {
+        .categoryName = _("LOREM IPSUM"),
+        .height = 1,
+        .weight = 1,
+        .description = gMelmetalPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+    },
 };

@@ -2319,3 +2319,411 @@ const u8 gDeoxysPokedexText[] = _(
     "extraterrestrial virus exposed to a laser\n"
     "beam. Its body is configured for superior\n"
     "agility and speed.");
+
+const u8 gTotartlePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gGorochuPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gSlateonPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gCrageonPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gBreezeonPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gCoinpurPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gPerrserkerPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gGentlarvaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gPupalPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gCarapthorPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gKotoraPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gGaotoraPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gGorotoraPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gNidoreignPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gBittybatPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gParaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gVulpiiiPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gAnihilapePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gBellignanPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gOrfryPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gWeirduckPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gCheepPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gJabettaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gLatherlickPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gPudiPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gLuxwanPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gSirfetchdPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMagnetitePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMagnezonePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gGavillainPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gKoltaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gGuardiaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gBalumbaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gNestrioPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gStainyPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMonjaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gTangrowthPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gTrickelaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gRamoosePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gDisturbanPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gBlastykePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gSharpoonPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gRhyperiorPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gKleavorPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gTriculesPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gTrampelPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gHappinyPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gCymbonkPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gGorillaimoPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gPowrillaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gCactomusPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMimeJrPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMrRimePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gSubzawPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gBuuPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gElectavirePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMagmortarPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMimmeoPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gPorygonZPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gPorygon3PokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gDecillaPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gGawarheadPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gOmegadgePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gSqueamataPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMinistarePokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gIguanarchPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMeltanPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
+
+const u8 gMelmetalPokedexText[] = _(
+    "Lorem ipsum dolor sit\n"
+    "amet, consectetur adipiscing\n"
+    "elit, sed do eiusmod tempor\n"
+    "incididunt ut labore et...");
