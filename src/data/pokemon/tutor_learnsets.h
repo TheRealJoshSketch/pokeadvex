@@ -5747,5 +5747,141 @@ static const u32 sTutorLearnsets[] =
                                 | TUTOR(MOVE_SLEEP_TALK)
                                 | TUTOR(MOVE_DEFENSE_CURL)),
 
+    [SPECIES_TOTARTLE]         = (0),
+
+    [SPECIES_GOROCHU]          = (0),
+
+    [SPECIES_SLATEON]          = (0),
+
+    [SPECIES_CRAGEON]          = (0),
+
+    [SPECIES_BREEZEON]         = (0),
+
+    [SPECIES_COINPUR]          = (0),
+
+    [SPECIES_PERRSERKER]       = (0),
+
+    [SPECIES_GENTLARVA]        = (0),
+
+    [SPECIES_PUPAL]            = (0),
+
+    [SPECIES_CARAPTHOR]        = (0),
+
+    [SPECIES_KOTORA]           = (0),
+
+    [SPECIES_GAOTORA]          = (0),
+
+    [SPECIES_GOROTORA]         = (0),
+
+    [SPECIES_NIDOREIGN]        = (0),
+
+    [SPECIES_BITTYBAT]         = (0),
+
+    [SPECIES_PARA]             = (0),
+
+    [SPECIES_VULPIII]          = (0),
+
+    [SPECIES_ANIHILAPE]        = (0),
+
+    [SPECIES_BELLIGNAN]        = (0),
+
+    [SPECIES_ORFRY]            = (0),
+
+    [SPECIES_WEIRDUCK]         = (0),
+
+    [SPECIES_CHEEP]            = (0),
+
+    [SPECIES_JABETTA]          = (0),
+
+    [SPECIES_LATHERLICK]       = (0),
+
+    [SPECIES_PUDI]             = (0),
+
+    [SPECIES_LUXWAN]           = (0),
+
+    [SPECIES_SIRFETCHD]        = (0),
+
+    [SPECIES_MAGNETITE]        = (0),
+
+    [SPECIES_MAGNEZONE]        = (0),
+
+    [SPECIES_GAVILLAIN]        = (0),
+
+    [SPECIES_KOLTA]            = (0),
+
+    [SPECIES_GUARDIA]          = (0),
+
+    [SPECIES_BALUMBA]          = (0),
+
+    [SPECIES_NESTRIO]          = (0),
+
+    [SPECIES_STAINY]           = (0),
+
+    [SPECIES_MONJA]            = (0),
+
+    [SPECIES_TANGROWTH]        = (0),
+
+    [SPECIES_TRICKELA]         = (0),
+
+    [SPECIES_RAMOOSE]          = (0),
+
+    [SPECIES_DISTURBAN]        = (0),
+
+    [SPECIES_BLASTYKE]         = (0),
+
+    [SPECIES_SHARPOON]         = (0),
+
+    [SPECIES_RHYPERIOR]        = (0),
+
+    [SPECIES_KLEAVOR]          = (0),
+
+    [SPECIES_TRICULES]         = (0),
+
+    [SPECIES_TRAMPEL]          = (0),
+
+    [SPECIES_HAPPINY]          = (0),
+
+    [SPECIES_CYMBONK]          = (0),
+
+    [SPECIES_GORILLAIMO]       = (0),
+
+    [SPECIES_POWRILLA]         = (0),
+
+    [SPECIES_CACTOMUS]         = (0),
+
+    [SPECIES_MIME_JR]          = (0),
+
+    [SPECIES_MR_RIME]          = (0),
+
+    [SPECIES_SUBZAW]           = (0),
+
+    [SPECIES_BUU]              = (0),
+
+    [SPECIES_ELECTAVIRE]       = (0),
+
+    [SPECIES_MAGMORTAR]        = (0),
+
+    [SPECIES_MIMMEO]           = (0),
+
+    [SPECIES_PORYGON_Z]        = (0),
+
+    [SPECIES_PORYGON3]         = (0),
+
+    [SPECIES_DECILLA]          = (0),
+
+    [SPECIES_GAWARHEAD]        = (0),
+
+    [SPECIES_OMEGADGE]         = (0),
+
+    [SPECIES_SQUEAMATA]        = (0),
+
+    [SPECIES_MINISTARE]        = (0),
+
+    [SPECIES_IGUANARCH]        = (0),
+
+    [SPECIES_MELTAN]           = (0),
+
+    [SPECIES_MELMETAL]         = (0),
+    
 };
 

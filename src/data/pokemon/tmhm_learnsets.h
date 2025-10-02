@@ -10180,4 +10180,208 @@ const union {
         .FLASH = TRUE,
     } },
 
+    [SPECIES_TOTARTLE] = { .learnset = {
+    } },
+
+    [SPECIES_GOROCHU] = { .learnset = {
+    } },
+
+    [SPECIES_SLATEON] = { .learnset = {
+    } },
+
+    [SPECIES_CRAGEON] = { .learnset = {
+    } },
+
+    [SPECIES_BREEZEON] = { .learnset = {
+    } },
+
+    [SPECIES_COINPUR] = { .learnset = {
+    } },
+
+    [SPECIES_PERRSERKER] = { .learnset = {
+    } },
+
+    [SPECIES_GENTLARVA] = { .learnset = {
+    } },
+
+    [SPECIES_PUPAL] = { .learnset = {
+    } },
+
+    [SPECIES_CARAPTHOR] = { .learnset = {
+    } },
+
+    [SPECIES_KOTORA] = { .learnset = {
+    } },
+
+    [SPECIES_GAOTORA] = { .learnset = {
+    } },
+
+    [SPECIES_GOROTORA] = { .learnset = {
+    } },
+
+    [SPECIES_NIDOREIGN] = { .learnset = {
+    } },
+
+    [SPECIES_BITTYBAT] = { .learnset = {
+    } },
+
+    [SPECIES_PARA] = { .learnset = {
+    } },
+
+    [SPECIES_VULPIII] = { .learnset = {
+    } },
+
+    [SPECIES_ANIHILAPE] = { .learnset = {
+    } },
+
+    [SPECIES_BELLIGNAN] = { .learnset = {
+    } },
+
+    [SPECIES_ORFRY] = { .learnset = {
+    } },
+
+    [SPECIES_WEIRDUCK] = { .learnset = {
+    } },
+
+    [SPECIES_CHEEP] = { .learnset = {
+    } },
+
+    [SPECIES_JABETTA] = { .learnset = {
+    } },
+
+    [SPECIES_LATHERLICK] = { .learnset = {
+    } },
+
+    [SPECIES_PUDI] = { .learnset = {
+    } },
+
+    [SPECIES_LUXWAN] = { .learnset = {
+    } },
+
+    [SPECIES_SIRFETCHD] = { .learnset = {
+    } },
+
+    [SPECIES_MAGNETITE] = { .learnset = {
+    } },
+
+    [SPECIES_MAGNEZONE] = { .learnset = {
+    } },
+
+    [SPECIES_GAVILLAIN] = { .learnset = {
+    } },
+
+    [SPECIES_KOLTA] = { .learnset = {
+    } },
+
+    [SPECIES_GUARDIA] = { .learnset = {
+    } },
+
+    [SPECIES_BALUMBA] = { .learnset = {
+    } },
+
+    [SPECIES_NESTRIO] = { .learnset = {
+    } },
+
+    [SPECIES_STAINY] = { .learnset = {
+    } },
+
+    [SPECIES_MONJA] = { .learnset = {
+    } },
+
+    [SPECIES_TANGROWTH] = { .learnset = {
+    } },
+
+    [SPECIES_TRICKELA] = { .learnset = {
+    } },
+
+    [SPECIES_RAMOOSE] = { .learnset = {
+    } },
+
+    [SPECIES_DISTURBAN] = { .learnset = {
+    } },
+
+    [SPECIES_BLASTYKE] = { .learnset = {
+    } },
+
+    [SPECIES_SHARPOON] = { .learnset = {
+    } },
+
+    [SPECIES_RHYPERIOR] = { .learnset = {
+    } },
+
+    [SPECIES_KLEAVOR] = { .learnset = {
+    } },
+
+    [SPECIES_TRICULES] = { .learnset = {
+    } },
+
+    [SPECIES_TRAMPEL] = { .learnset = {
+    } },
+
+    [SPECIES_HAPPINY] = { .learnset = {
+    } },
+
+    [SPECIES_CYMBONK] = { .learnset = {
+    } },
+
+    [SPECIES_GORILLAIMO] = { .learnset = {
+    } },
+
+    [SPECIES_POWRILLA] = { .learnset = {
+    } },
+
+    [SPECIES_CACTOMUS] = { .learnset = {
+    } },
+
+    [SPECIES_MIME_JR] = { .learnset = {
+    } },
+
+    [SPECIES_MR_RIME] = { .learnset = {
+    } },
+
+    [SPECIES_SUBZAW] = { .learnset = {
+    } },
+
+    [SPECIES_BUU] = { .learnset = {
+    } },
+
+    [SPECIES_ELECTAVIRE] = { .learnset = {
+    } },
+
+    [SPECIES_MAGMORTAR] = { .learnset = {
+    } },
+
+    [SPECIES_MIMMEO] = { .learnset = {
+    } },
+
+    [SPECIES_PORYGON_Z] = { .learnset = {
+    } },
+
+    [SPECIES_PORYGON3] = { .learnset = {
+    } },
+
+    [SPECIES_DECILLA] = { .learnset = {
+    } },
+
+    [SPECIES_GAWARHEAD] = { .learnset = {
+    } },
+
+    [SPECIES_OMEGADGE] = { .learnset = {
+    } },
+
+    [SPECIES_SQUEAMATA] = { .learnset = {
+    } },
+
+    [SPECIES_MINISTARE] = { .learnset = {
+    } },
+
+    [SPECIES_IGUANARCH] = { .learnset = {
+    } },
+
+    [SPECIES_MELTAN] = { .learnset = {
+    } },
+
+    [SPECIES_MELMETAL] = { .learnset = {
+    } },
+
 };
